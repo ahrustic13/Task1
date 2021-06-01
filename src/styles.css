@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.heading {
+  margin: 50px 20px 25px;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+.solutionBtn {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #d60544;
+  border: none;
+  margin: 0 10px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.solutionBtn:hover {
+  background-color: #920025
+}
+
+.solutionBtn:active {
+  background-color: #9c0606;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
